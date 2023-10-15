@@ -7,5 +7,5 @@ let
   systems = [ system1 system2 ];
 in
 {
-  "secret.age".publicKeys = [ user1 system1 system2 ];
+  "secret.age".publicKeys = users ++ systems;
 }
