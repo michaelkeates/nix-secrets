@@ -1,5 +1,5 @@
 let
-  system1 = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFl8xlUvLRntYtX3uOB6sj8pwpp58w9xqKDsn8pDaN5Z";
+  system1 = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILuGrAvcNSBx9rJ+hpSO9I+Mw/jJlK1hmcKa5IbSMuVW";
   systems = [ system1 ];
 in
 {
