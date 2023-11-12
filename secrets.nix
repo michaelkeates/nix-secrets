@@ -3,5 +3,5 @@ let
   systems = [ system1 ];
 in
 {
-  "bitwarden-masterpassword.age".publicKeys = systems;
+  "secret.age".publicKeys = systems;
 }
